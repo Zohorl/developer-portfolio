@@ -5,17 +5,21 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    
+    font-size: 40px;
+}
 .font-color{
     color: forestgreen;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 160px;
     
 }
 .half-width{
     width: 50%;
-    padding-left:5%;
+    padding-left:3%;
 }
 .half-width img{
    width: 85%;
@@ -36,4 +40,29 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    box-shadow: 10px 10px 50px black;
+    width: 50%;
+    margin-left: 60px;
+    padding-left: 35px;
+    border-radius: 12px;
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,gold);
+    border-image-slice: 1;
+}
+#baby-web-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
